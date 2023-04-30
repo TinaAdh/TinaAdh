@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: #020818;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.card{
+    width:400px;
+    height: 500px;
+    border-radius: 12px;
+    background-color:white;
+    padding: 2%;
+    overflow: hidden;
+}
+
+
+.card.title h1{
+    font-family:Gilroy;
+    color:white;
+    font-size:2rem;
+    text-align:center;
+    padding:2%;
+}
+.card.title p{
+    font-family: open sans;
+    color: white;
+    text-align:center;
+    justify-content: center;
+}
+.card .image{
+    display: flex;
+    justify-content: center;
+    margin-top:5%;
+}
+.card .image .outer{
+    background-color: lightblue ;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.card .image .inner{
+    height: 120px;
+    width: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.card .image .inner img{
+    width:100%;
+}
+.card .name{
+    color:black;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top:2%;
+}
+
+.card .details{
+    background-color: rgb(88, 147, 161);
+    height: 40%;
+    margin-top: 5%;
+    border-top-left-radius: 75px;
+    padding: 7%;
+    color:white;
+    font-family: open sans;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 5px solid rgb(60, 90, 110);
+}
